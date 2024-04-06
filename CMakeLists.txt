@@ -7,6 +7,8 @@ add_subdirectory(deps/glfw-3.4)
 add_executable(
     NeonBlur
         deps/glad/src/gl.c
+        src/shader.cpp
+        src/texture.cpp
         src/main.cpp
 )
 
